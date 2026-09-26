@@ -1,0 +1,714 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="About the pyOpenSci software peer review process" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="about/intro.html" />
+<meta property="og:site_name" content="pyOpenSci Python Package Guide" />
+<meta property="og:description" content="Community-driven software peer review: pyOpenSci leads an open, volunteer-based review process for scientific Python open source software. Our review process focuses on: Code quality and style,, Do..." />
+<meta property="og:image:width" content="1146" />
+<meta property="og:image:height" content="600" />
+<meta property="og:image" content="_images/social_previews/summary_about_intro_2f39641f.png" />
+<meta property="og:image:alt" content="Community-driven software peer review: pyOpenSci leads an open, volunteer-based review process for scientific Python open source software. Our review process focuses on: Code quality and style,, Do..." />
+<meta name="description" content="Community-driven software peer review: pyOpenSci leads an open, volunteer-based review process for scientific Python open source software. Our review process focuses on: Code quality and style,, Do..." />
+<meta name="twitter:card" content="summary_large_image" />
+
+    <title>About the pyOpenSci software peer review process &#8212; Software Peer Review Guide</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/pyos-sphinx-theme.css?v=fb569b27" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@400;700&family=Work+Sans:wght@400;700" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/pyos.css?v=d6812f4d" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="../_static/documentation_options.js?v=ff44e7b3"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'about/intro';</script>
+    <script src="../_static/matomo.js?v=918da087"></script>
+    <link rel="canonical" href="https://www.pyopensci.org/software-peer-review/about/intro.html" />
+    <link rel="icon" href="https://www.pyopensci.org/images/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="pyOpenSci Software Peer Review Goals" href="our-goals.html" />
+    <link rel="prev" title="Welcome to the pyOpenSci Software Peer Review Guidebook!" href="../index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+<aside class="bd-header-announcement" aria-label="Announcement">
+  <div class="bd-header-announcement__content"><p><a href='https://www.github.com/pyopensci/software-submission/'>Submit Your Python Package for Peer Review!</a></p></div>
+</aside>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class=" navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo-light-mode.png" class="logo__image only-light" alt="pyOpenSci Software Peer Review Guide. The pyOpenSci logo is a purple flower with pyOpenSci under it. The o in open sci is the center of the flower"/>
+    <img src="../_static/logo-dark-mode.png" class="logo__image only-dark pst-js-only" alt="pyOpenSci Software Peer Review Guide. The pyOpenSci logo is a purple flower with pyOpenSci under it. The o in open sci is the center of the flower"/>
+  
+  
+    <p class="title logo__title">Peer Review Guide</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class=" navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    About
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../partners/scientific-communities.html">
+    Partnerships
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how-to/author-guide.html">
+    Review Guides
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://www.pyopensci.org">
+    pyOpenSci Website
+  </a>
+</li>
+
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+<li class=" ">
+  <a class="nav-link dropdown-item nav-external" href="https://www.pyopensci.org/python-package-guide">
+    Python Packaging Guide
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-external" href="https://pyopensci.org/handbook">
+    Handbook
+  </a>
+</li>
+
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/pyOpenSci/software-peer-review" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://fosstodon.org/@pyOpenSci" title="Mastodon" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-mastodon fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mastodon</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    About
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../partners/scientific-communities.html">
+    Partnerships
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how-to/author-guide.html">
+    Review Guides
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://www.pyopensci.org">
+    pyOpenSci Website
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://www.pyopensci.org/python-package-guide">
+    Python Packaging Guide
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://pyopensci.org/handbook">
+    Handbook
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/pyOpenSci/software-peer-review" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://fosstodon.org/@pyOpenSci" title="Mastodon" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-mastodon fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mastodon</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">About peer review</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="our-goals.html">Our Goals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="benefits.html">Benefits for Package Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="package-scope.html">Package Scope (What we review)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="why-open-review.html">Why Open Review Matters</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Our Process</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../our-process/how-review-works.html">How Review Works</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../our-process/review-timeline.html">Review Timeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../our-process/policies.html">Peer Review Policies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../code-of-conduct.html">Code of Conduct</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendices</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../appendices/templates.html">Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CONTRIBUTING.html">Contributing</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">About the pyOpenSci software peer review process</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="about-the-pyopensci-software-peer-review-process">
+<h1>About the pyOpenSci software peer review process<a class="headerlink" href="#about-the-pyopensci-software-peer-review-process" title="Link to this heading">#</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<section id="community-driven-software-peer-review">
+<h2>Community-driven software peer review<a class="headerlink" href="#community-driven-software-peer-review" title="Link to this heading">#</a></h2>
+<p>pyOpenSci leads an open, volunteer-based review process for scientific Python
+open source software. Our review process focuses on:</p>
+<ul class="simple">
+<li><p>Code quality and style,</p></li>
+<li><p>Documentation quality,</p></li>
+<li><p>Package usability,</p></li>
+<li><p>Test coverage that supports the maintenance of code function. Test coverage also makes it easier for contributors to understand how their contributions impact other parts of the code,</p></li>
+<li><p>Evaluation of infrastructure such as continuous integration that runs test suites and code format checks on pull requests. This infrastructure supports software quality and reliability. It also makes it easier for contributors to submit changes to the code base and know that those changes aren’t breaking other parts of the code.</p></li>
+</ul>
+<p>The overarching goal of this review process is to improve the quality,
+consistency and usability of scientific software tools over time. Further, we
+ensure that packages in our ecosystem are continuously maintained. Over time
+knowing that a tool is both vetted and maintained builds trust with tool users in the community.</p>
+</section>
+<section id="peer-review-is-needed-in-the-scientific-community">
+<h2>Peer review is needed in the scientific community<a class="headerlink" href="#peer-review-is-needed-in-the-scientific-community" title="Link to this heading">#</a></h2>
+<p>Software peer review supports scientists receiving credit for putting in the
+effort of making tools that scientists need to propel open science forward.
+Software peer review provides credit for the community investment that
+developers make in creating and maintaining scientific software in the same way
+that paper review recognizes scientific findings.</p>
+<section id="peer-review-also-addresses-issues-specific-to-the-python-ecosystem">
+<h3>Peer review also addresses issues specific to the Python ecosystem<a class="headerlink" href="#peer-review-also-addresses-issues-specific-to-the-python-ecosystem" title="Link to this heading">#</a></h3>
+<p>The pyOpenSci peer review program also addresses several issues
+that are specific to the scientific Python ecosystem:</p>
+<ol class="arabic simple">
+<li><p>The struggle for scientists to select the right tool to use for their workflow given that there are often multiple packages with overlapping functionality and varying levels of maintenance. <a class="reference external" href="https://pypi.org/search/?q=twitter">See this example of the many packages that interface with Twitter on <code class="docutils literal notranslate"><span class="pre">PyPI</span></code></a></p></li>
+<li><p>Packages that are not documented enough to support:</p>
+<ul class="simple">
+<li><p>Contributions from others</p></li>
+<li><p>Directions on how to get started using the package functionality (quick start vignettes or tutorials)</p></li>
+</ul>
+</li>
+<li><p>Packages using varying types of packaging and documentation approaches making it more difficult to contribute.</p></li>
+<li><p>Packages that are well-maintained and used but then maintenance comes to a halt when the maintainer needs to step down (burn-out is common and understandable).</p></li>
+<li><p>Packages that are missing proper licensing and citation information.</p></li>
+</ol>
+<p>Further, pyOpenSci addresses the issue of software maintenance.
+It addresses the question:</p>
+<blockquote>
+<div><p>What happens to a tool that the community is using when the maintainer needs to step down</p>
+</div></blockquote>
+<p>In these cases pyOpenSci will help find a new maintainer(s) for that tool. If
+that is not possible, we will help sunset the package in a way that allows
+users to gracefully update their workflows rather than be caught by
+surprise when a new bug arises.</p>
+</section>
+<section id="peer-review-of-open-source-software-helps-maintain-consistent-quality">
+<h3>Peer review of open source software helps maintain consistent quality<a class="headerlink" href="#peer-review-of-open-source-software-helps-maintain-consistent-quality" title="Link to this heading">#</a></h3>
+<p>Peer review of python tools that support science is critical to enforcing
+quality and usability standards. All pyOpenSci packages contributed by the
+community undergo a transparent, constructive, non adversarial and open peer
+review process. The goal of that process is to enforce commonly accepted standards.
+These standards include technical structure of the package, usability of the
+package, documenting package functionality in a way that is accessible
+to all levels of users as well as proper licensing and citation information.</p>
+</section>
+<section id="why-is-pyopensci-focused-on-the-python-programming-language">
+<h3>Why is pyOpenSci focused on the Python programming language?<a class="headerlink" href="#why-is-pyopensci-focused-on-the-python-programming-language" title="Link to this heading">#</a></h3>
+<p>Python is a general programming language used across many different applications
+that extend well beyond science. Furthermore, the Python package landscape is
+highly dynamic and constantly evolving to support many different types of
+users and developers.</p>
+<p>As such there is a huge amount of variation
+in the scientific Python ecosystem in terms of how tools are built, supported
+and documented. This variation can be hard for software users (data scientists for example) to find the right tool to use for their workflow.</p>
+<p>We aspire to help scientists find the high quality, documented and
+maintained tools that they need to do their science. We also support
+developers in maintaining their tools and receiving credit for their work.</p>
+<p>Our <em>peer review</em> badge
+and catalog of tools will help scientists find the tools that they need. Our
+diverse and welcoming community will support maintainers as they maintain their tools. Advocating for citation of software will also help maintainers
+receive academic credit for their work.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><a class="reference external" href="https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/">This blog post</a> written by editors from our partner organization, rOpenSci, is a good introduction to the pyOpenSci software peer review process.</p>
+</div>
+</section>
+<section id="how-do-i-know-that-a-python-package-has-been-reviewed-by-pyopensci">
+<h3>How do I know that a Python package has been reviewed by pyOpenSci?<a class="headerlink" href="#how-do-i-know-that-a-python-package-has-been-reviewed-by-pyopensci" title="Link to this heading">#</a></h3>
+<p>You can identify pyOpenSci packages that have been peer-reviewed by the green
+“peer-reviewed” badge at the top of their <code class="docutils literal notranslate"><span class="pre">README.md</span></code> file.</p>
+<figure class="myclass align-default" id="pyos-badge">
+<a class="bg-primary mb-1 reference internal image-reference" href="https://pyopensci.org/badges/peer-reviewed.svg"><img alt="The pyOpenSci Peer Reviewed badge" class="bg-primary mb-1" src="https://pyopensci.org/badges/peer-reviewed.svg" style="width: 200px;" />
+</a>
+<figcaption>
+<p><span class="caption-text">pyOpenSci Peer Review Badge</span><a class="headerlink" href="#pyos-badge" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>This badge is added by the package author after the package
+has successfully completed review and ideally links to the specific GitHub issue
+where the tool was reviewed. <a class="reference external" href="https://github.com/hpi-dhc/devicely">See this example from devicely, one of our accepted pyOpenSci ecosystem packages</a>.</p>
+</section>
+<section id="partnership-with-joss">
+<h3>Partnership with JOSS<a class="headerlink" href="#partnership-with-joss" title="Link to this heading">#</a></h3>
+<p>pyOpenSci collaborates with organizations that support the scientific community, for example, Journal of Open Source Software (JOSS).
+We are not a publisher, but rather a community that supports Python-specific packages. You don’t have to choose between JOSS and us since we are complementary. See details <a class="reference external" href="https://www.pyopensci.org/software-peer-review/partners/pangeo.html">here</a>.</p>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Welcome to the pyOpenSci Software Peer Review Guidebook!</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="our-goals.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">pyOpenSci Software Peer Review Goals</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#community-driven-software-peer-review">Community-driven software peer review</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#peer-review-is-needed-in-the-scientific-community">Peer review is needed in the scientific community</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#peer-review-also-addresses-issues-specific-to-the-python-ecosystem">Peer review also addresses issues specific to the Python ecosystem</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#peer-review-of-open-source-software-helps-maintain-consistent-quality">Peer review of open source software helps maintain consistent quality</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-is-pyopensci-focused-on-the-python-programming-language">Why is pyOpenSci focused on the Python programming language?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-i-know-that-a-python-package-has-been-reviewed-by-pyopensci">How do I know that a Python package has been reviewed by pyOpenSci?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#partnership-with-joss">Partnership with JOSS</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/pyopensci/software-peer-review/edit/main/about/intro.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/about/intro.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2026, pyOpenSci.
+      <br/>
+    
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+  </body>
+</html>
